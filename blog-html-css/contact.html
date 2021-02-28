@@ -16,7 +16,39 @@
   <!-- Custom Styling -->
   <link rel="stylesheet" href="css/style.css">
 
-  <title>Medizar</title>
+  <title>Single Post</title>
+
+  <style type="text/css">
+    /* Set the size of the div element that contains the map */
+    #map {
+      height: 400px;
+      /* The height is 400 pixels */
+      width: 100%;
+      /* The width is the width of the web page */
+    }
+  </style>
+  <script>
+    // Initialize and add the map
+    function initMap() {
+      // The location of Uluru
+      const uluru = { lat: -25.344, lng: 131.036 };
+      // The map, centered at Uluru
+      const map = new google.maps.Map(document.getElementById("map"), {
+        zoom: 4,
+        center: uluru,
+      });
+      // The marker, positioned at Uluru
+      const marker = new google.maps.Marker({
+        position: uluru,
+        map: map,
+      });
+    }
+  </script>
+
+
+
+
+
 </head>
 
 <body>
@@ -59,26 +91,23 @@
       <!-- Main Content Wrapper -->
       <div class="main-content-wrapper">
         <div class="main-content single">
-          <h1 class="post-title">About</h1>
+          <h1 class="post-title">CONTACT US</h1>
+
+
 
           <div class="post-content">
-           <p>
-            At the Medizar Special Hospital in Rijeka and Pula, in one day and in one place, in a safe and reliable environment, without crowds and waiting,  we take care of your health carefully and responsibly.
 
-             Special Hospital started operating in 1991 and is the founder of private practice in providing health services in the USA. We went from a private clinic to a special hospital, which is today a regional leader in private health care. <br/><br/> We have established ourselves as a leader in the introduction and application of new, state-of-the-art technologies in diagnostics and treatment, and a particularly strong development cycle begins with the growth of the clinic into a special hospital in October 2016 and continues with the opening of a business unit in Pula in 2017.
+
+
+
             
-            We thank our quality and reputation primarily to dedicated employees, who, with many years of experience and continuous training, acquisition of new skills and competencies, provide a top integrated health service. <br/><br/> Over one hundred and fifty employees, of which more than sixty doctors, provide our patients with the best health care service.  This is confirmed by the fact that more than forty thousand patients a year entrust us with health care.
-            
-            Today,  is a special hospital with integrated complete diagnostics, polyclinic and minimally invasive surgery. Our experienced and educated medical staff takes care of patients in sixteen registered activities that we perform through many specialties and subspecialties: medical - biochemical laboratory, cytology, radiology, internal medicine, gastroenterology, cardiology, nephrology, pulmonology, hematology, endocrinology, neurology, dermatology , ophthalmology, otorhinolaryngology, urology, gynecology and obstetrics, general surgery, neurosurgery, orthopedics, vascular surgery, plastic surgery and anesthesiology, resuscitation and intensive care.<br/><br/>
-            
-            After more than a quarter of a century of successful work in Rijeka, in 2017  "moved" to the other side of Učka, with the desire that our well-known quality of health services be available to all citizens of Istria. In Pula, many patients from Istria are available to almost all outpatient clinics, but also part of our hospital services, through more than twenty different specialties and subspecialties with complete laboratory diagnostics.
-            
-             Special Hospital is a pioneer in the quality, safety and reliability of health care and a leader in international accreditations and certificates. We were the first in Croatia, back in 2017, to successfully complete the process of strict accreditation and receive a certificate of excellence from the American Accreditation Commission (AACI).<br/><br/> With the confirmation of the AACI standard,  is the holder of the Quality Certificate of the management system EN 15224 and ISO 9001: 2015, the highest standard of hospital and specialized polyclinic services.
-            
-            The certificate is a guarantee of patient safety, protection of patients' rights, quality of health services, risk management and data protection. All this is in line with the highest world quality and safety standards that promote excellence as a result of continuous monitoring, measurement, analysis, correction and corrective action. These certificates confirm our commitment to patients, high expertise and quality of work.
-            
-            Always with you, your Medizar! 
-           </p>
+            <!--The div element for the map -->
+               
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24200.265255076327!2d-74.06794413999675!3d40.69526740236345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20Sjedinjene%20Dr%C5%BEave!5e0!3m2!1shr!2shr!4v1614513896425!5m2!1shr!2shr" width="100%" height="1000" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+
+
+      +
           </div>
 
         </div>
@@ -127,14 +156,14 @@
         </div>
 
         <div class="section topics">
-          <div style="background-color: red; width: 109%; float: left; padding: 1px ; position: relative; left: -4.5%;  margin-top: -16px;">
-              <h2>INFORMATION AND RESERVATIONS</h2>
-              </div>
-          </br>             </br>
+            <div style="background-color: red; width: 109%; float: left; padding: 1px ; position: relative; left: -4.5%;  margin-top: -16px;">
+                <h2>INFORMATION AND RESERVATIONS</h2>
+                </div>
+            </br>             </br>
 
-          <h2>MEDIZAR:  NEW YORK</h2>
+            <h2>MEDIZAR:  NEW YORK</h2>
 
-          <i class="fa fa-phone" style="font-size: 20px; color: red;" ></i>
+            <i class="fa fa-phone" style="font-size: 20px; color: red;" ></i>
 <a href="tel:+38551263109" style="font-size: 20px; margin-left: 20px;">0913008431</a>
 </br>             </br>
 
@@ -142,27 +171,24 @@
 
 <a style="font-size: 20px; margin-left: 10px; font-family: 'Times New Roman', Times, serif;">Monday - Friday: 07:00 to 24:00   </a>
 
-          </br>             </br>
-      </br>             </br>
+            </br>             </br>
+        </br>             </br>
 
-              <h2>MEDIZAR:  WASHINGTON</h2>
-              <i class="fa fa-phone" style="font-size: 20px; color: red;" ></i>
+                <h2>MEDIZAR:  WASHINGTON</h2>
+                <i class="fa fa-phone" style="font-size: 20px; color: red;" ></i>
 
-              <a href="tel:+38551263109" style="font-size: 20px; margin-left: 20px;">0913008431</a>
-              <br/>                 <br/>
+                <a href="tel:+38551263109" style="font-size: 20px; margin-left: 20px;">0913008431</a>
+                <br/>                 <br/>
 
-              <i class="fa fa-clock" style="font-size: 20px; color: red;" ></i>
+                <i class="fa fa-clock" style="font-size: 20px; color: red;" ></i>
 
-              <a style="font-size: 20px; margin-left: 10px; font-family: 'Times New Roman', Times, serif;">Monday - Friday: 07:00 to 21:00 </a>
+                <a style="font-size: 20px; margin-left: 10px; font-family: 'Times New Roman', Times, serif;">Monday - Friday: 07:00 to 21:00 </a>
 
 
-      </div>
+        </div>
       </div>
       <!-- // Sidebar -->
 
-
-
-      
     </div>
     <!-- // Content -->
 
